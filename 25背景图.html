@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 盒子是800*800 */
+        p{
+            width: 800px;
+            height: 800px;
+            /* 背景图默认是平铺(复制)的效果 */
+            background-color: red;
+            background-image: url(./照片/BB1lSzRJ.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            /* contain:如果图的宽高和盒子的尺寸相等停止缩放,可能导致盒子有露白 */
+            /* cover:图片完全覆盖盒子,可能导致图片显示不全 */
+        }
+    </style>
+</head>
+<body>
+    <p>hello world</p>
+</body>
+</html>
